@@ -14,19 +14,19 @@
 </head>
 <body>
   <header>
-    <div class="row middle-xs w-100">
-      <div class="col-xs-12 col-sm-4">
+    <div class="row middle-xs betweeen-xs w-100">
+      <div class="col-xs-12 col-md-6 mt-1">
         <div class="brand">
           <a href="/">The Hippocampus Hub</a>
           <h3 class="yellow">The Website is under construction</h3>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-8">
-        <nav class="text-right">
-          <a href="/">Home</a>
-          <a href="/build">Build models</a>
-          <a href="/model">Explore models</a>
-          <a href="#contact-us">Contact us</a>
+      <div class="col-xs-12 col-md-6 col-lg-5 col-lg-offset-1 mt-1">
+        <nav class="row between-xs">
+          <div class="col-xs-3 text-center"><a href="/">Home</a></div>
+          <div class="col-xs-3 text-center"><a href="/build">Build models</a></div>
+          <div class="col-xs-3 text-center"><a href="/model">Explore models</a></div>
+          <div class="col-xs-3 text-center"><a href="#contact-us">Contact us</a></div>
         </nav>
       </div>
     </div>
@@ -70,15 +70,15 @@
         <p class="mt-2">The Hub features two main functionalities: workflows and tools to build models, and online services to interactively explore previously built models.</p>
         <p>The Hub is for all: students, experimental scientists, computational neuroscientists, interested members of the public. We also hope that the Hub inspires experimental scientists to contribute data and that modelers may help in advancing the models. We are therefore happy to hear from you with potential collaboration ideas and projects (see → terms & conditions for more details). If you are interested in using the Hub for commercial or industrial purposes, please contact us for more information.</p>
         <p>The Hub is developed and operated jointly by two organisations, the Institute of Biophysics, National Research Council (Italy, CNR-IBF) and the Blue Brain Project, École Polytechnique Fédérale de Lausanne (Switzerland).</p>
-        <div class="row around-xs middle-xs mt-2">
-          <div class="col-xs">
+        <div class="row around-xs middle-xs">
+          <div class="col-xs-12 col-sm-6 mt-2">
             <img
               class="cnr-logo"
               src="/images/logos/cnr-logo.svg"
               alt="CNR logo"
             >
           </div>
-          <div class="col-xs">
+          <div class="col-xs-12 col-sm-6 mt-2">
             <img
               class="epfl-logo"
               src="/images/logos/epfl-logo.svg"
@@ -197,51 +197,14 @@
       </div>
     </section>
 
-    <section class="terms-section bg-grey-3">
+    <section id="terms" class="terms-section bg-grey-3">
       <div class="section-content text-center">
         <h1 class="text-uppercase">Terms and conditions</h1>
         <p>The Hippocampus Hub intends to provide low-barrier access to data, models and computational services. Browsing data and models, and access to a limited amount of HPC resources, is provided for free. Applicable Terms of Use can be found at the bottom of each page.</p>
         <p>For re-use of data and models for research, education and commercial purposes, please consult the respective License Terms that can be found with the respective artefact.</p>
         <p>For more involved computational campaigns, you may have to abide by User Agreements of the infrastructure providers (e.g. EBRAINS).</p>
         <p>For additional licensing questions, please contact XXX</p>
-        <div class="row mt-2">
-          <div class="col-xs-12 col-sm-4">
-            <a
-              class="cta-btn cta-btn-grey mt-2"
-              href="/build/about"
-              target="_blank"
-            >
-              TERMS OF USE CNR-IBF
-              <div class="arrow">
-                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-4 mt-2">
-            <a
-              class="cta-btn cta-btn-grey"
-              href="/model/terms-of-use"
-              target="_blank"
-            >
-              TERMS OF USE BBP
-              <div class="arrow">
-                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-4 mt-2">
-            <a
-              class="cta-btn cta-btn-grey"
-              href="#"
-              target="_blank"
-            >
-              ADVANCED USER AGREEMENT
-              <div class="arrow">
-                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg>
-              </div>
-            </a>
-          </div>
-        </div>
+        <p><a class="color-grey-1" href="#">User Agreements for advanced use of infrastructure (EBRAINS documents)</a></p>
       </div>
     </section>
 
@@ -317,7 +280,7 @@
           <p><a href="/">Home</a></p>
           <p><a href="/build/">Build Models</a></p>
           <p><a href="/model/">Explore Models</a></p>
-          <p><a href="#">Terms & Conditions</a></p>
+          <p><a href="#terms">Terms & Conditions</a></p>
           <p><a href="mailto:info@hippocampushub.eu">Contact Us</a></p>
         </div>
       </div>

@@ -78,7 +78,7 @@ body {
 
 header {
   position: absolute;
-  top: 1.4rem;
+  top: 0.4rem;
   left: 2rem;
   right: 2rem;
   z-index: 2;
@@ -144,15 +144,6 @@ footer a {
   color: #ffc90c;
 }
 
-.cta-btn.cta-btn-grey {
-  border: 1px solid #393745;
-  color: #393745;
-}
-
-.cta-btn.cta-btn-grey:hover {
-  background-color: rgb(204,206,213);
-}
-
 .cta-btn>.arrow {
   position: absolute;
   text-align: center;
@@ -167,11 +158,6 @@ footer a {
   background-color: rgb(255, 228, 131);
 }
 
-.cta-btn.cta-btn-grey>.arrow {
-  background-color: rgb(204,206,213);
-  color: white;
-}
-
 .brand a {
   font-weight: bold;
   font-size: 1.8rem;
@@ -182,7 +168,6 @@ footer a {
 }
 
 nav a {
-  margin-left: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -234,6 +219,10 @@ section.full-hight {
 
 .bg-grey-1 {
   background-color: #17151a;
+}
+
+.color-grey-1 {
+  color: #17151a;
 }
 
 .bg-grey-3 {
