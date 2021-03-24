@@ -225,6 +225,10 @@ section.full-hight {
   color: #17151a;
 }
 
+.color-light-grey {
+  color: #f7f8fc;
+}
+
 .bg-grey-3 {
   background-color: #f7f8fc;
 }
@@ -247,6 +251,9 @@ section.full-hight {
   position: relative;
   background-color: #f7f8fc;
   padding: 1rem 2rem;
+  color: #393745;
+}
+.info-block a {
   color: #393745;
 }
 
