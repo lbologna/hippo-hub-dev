@@ -237,13 +237,14 @@ section.full-hight {
   height: 40px;
 }
 
-.epfl-logo-text {
+.epfl-logo {
+  text-decoration: none;
   font-size: 22px;
   line-height: 22px;
   vertical-align: middle;
 }
 
-.epfl-logo {
+.epfl-logo-img {
   height: 20px;
 }
 
@@ -273,6 +274,8 @@ section.full-hight {
 
 .resource-block {
   display: block;
+  position: relative;
+  min-height: 8rem;
   text-decoration: none;
   color: #f7f8fc;
   background-color: rgb(83,89,111);
@@ -285,6 +288,15 @@ section.full-hight {
   background-color: transparent;
 }
 
+.resource-block p {
+  margin: 0;
+}
+
+.resource-block > p:nth-child(2) {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}
 
 .build-models-img {
   width: 100%;
